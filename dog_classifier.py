@@ -31,6 +31,9 @@ class Predict:
         else: 
             st.write(f'Click the button to classify') 
 
+--server.enableWebsocketCompression=false
+--server.enableXsrfProtection=false
+
 if __name__=='__main__':
 
     file_name='dog.pkl'
